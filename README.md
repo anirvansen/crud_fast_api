@@ -81,7 +81,12 @@ Below routes are protected , to use these route you need to authenticate yoursel
 
 ![authenticate](https://user-images.githubusercontent.com/20265546/87873180-f8a87880-c9dc-11ea-9642-c9c0253e5889.gif)
 
+
+<br/>
+
 ### Once you are authenticated you can use the protected routes , Lets see an example
+
+<br/>
 
 ![add_product](https://user-images.githubusercontent.com/20265546/87873285-cba89580-c9dd-11ea-92c7-4910148750a4.gif)
 
