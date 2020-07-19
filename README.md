@@ -63,7 +63,7 @@ Open http://127.0.0.1:8000 in the browser to see the project.
 ##  Register User
 ![register_user](https://user-images.githubusercontent.com/20265546/87872987-2db3cb80-c9db-11ea-80ec-717cf7103c96.gif)
 
-Here I am using sqllite to store the information, You can always change the database by changing SQLALCHEMY URL <a href="app/database.py">database.py</a>
+Here I am using sqllite to store the information, You can always change the database by changing SQLALCHEMY URL in <a href="app/database.py">database.py</a>
 
 > In case if you want to use postgresql
 
@@ -90,18 +90,20 @@ Below routes are protected , to use these route you need to authenticate yoursel
 
 ![add_product](https://user-images.githubusercontent.com/20265546/87873285-cba89580-c9dd-11ea-92c7-4910148750a4.gif)
 
-> Behind the scene the client sends Authorization: Bearer in the header which is a jwt token in our case
-Lets open developer tool to see the token
+> Behind the scene the client sends Authorization: Bearer in the header which is a jwt token in our case.
+You can see the token in developer console ,
+Network --> Headers
 
 <img width="767" alt="token" src="https://user-images.githubusercontent.com/20265546/87873334-5d180780-c9de-11ea-871d-e621795a9dea.PNG">
 
 
-> Now you can use other endpoint for CRUD operations.
+> ### Feel free to play with other endpoints.
 
 
 ## Contributing
 
-> ###  Feel free to contribute.
+> ###  Fork the project and let me know if you find any issue or enhancement in the project.
+I will be more than happy to look into your comments.
 
 
 ## FAQ
@@ -110,6 +112,11 @@ Lets open developer tool to see the token
     - To give a template which can be used to  get started with fast api with common functionalities.
 - **Are you going to add more functionalities ?**
     - Yes, I am planning to add file uploads,Mail functionality and  many more
+
+- **Why so basic crud project ?**
+    - I am also in the process of learning the framework, I shall add more complex and advace functionalities in future.
+
+
 
 ## Resources
 
