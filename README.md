@@ -120,11 +120,12 @@ I will be more than happy to look into your comments.
 
 ## Resources
 
-* Official Fast api documentation
-https://fastapi.tiangolo.com/
+* <a href="https://fastapi.tiangolo.com/" target="_blank" >Official Fast api documentation</a>
 
-* Fast Api Security :
-https://fastapi.tiangolo.com/tutorial/security/
+* <a href="https://fastapi.tiangolo.com/tutorial/security/" target="_blank" >Fast Api Security</a>
+
+
+
 
 
 ## License
