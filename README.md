@@ -73,7 +73,7 @@ SQLALCHEMY_DATABASE_URL = "postgresql://user:password@postgresserver/db"
 
 # Authenticate User
 
-Below routes are protected , to use these route you need to authenticate yourself so that a jwt token will be issueissue and this toke can be used as Authorization: Bearer header in the subsequent request.
+Below routes are protected , to use these route you need to authenticate yourself so that a jwt token will be issues and this token can be used to authenticate in the subsequent request.
 
 <img width="933" alt="protected_route" src="https://user-images.githubusercontent.com/20265546/87873114-483a7480-c9dc-11ea-8708-a95235255537.PNG">
 
