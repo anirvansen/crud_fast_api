@@ -2,6 +2,9 @@
 
 <img width="943" alt="cover" src="https://user-images.githubusercontent.com/20265546/87872807-5044e500-c9d9-11ea-954f-a11c4af7954b.PNG">
 
+## Live project
+> ###  https://crud-fast-api.herokuapp.com/
+
 ### I have created this project to demonstrate how convenient and easy it is to create rest api through FAST API framework. <br/>
 
 <a href="https://fastapi.tiangolo.com/" target="_blank">FAST API </a>
@@ -16,6 +19,8 @@
 > OAuth2 with Password (and hashing), Bearer with JWT tokens
 
 > Automatic data model documentation with JSON Schema
+
+
 
 
 ## Table of Contents
