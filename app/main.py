@@ -106,4 +106,5 @@ def update_product(id: int , new_product : schemas.Product,db = Depends(get_db),
 
     return HTTPException(status_code=status.HTTP_400_BAD_REQUEST,detail=f"Product id = {id} not found in database")
 
+
     
