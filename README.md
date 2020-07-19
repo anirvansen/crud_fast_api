@@ -1,6 +1,6 @@
 # REST API with FAST API Framework(Python)
 
-<img src="images/cover.png" alt="cover pic">
+<img width="943" alt="cover" src="https://user-images.githubusercontent.com/20265546/87872807-5044e500-c9d9-11ea-954f-a11c4af7954b.PNG">
 
 ### I have created this project to demonstrate how convenient and easy it is to create rest api through FAST API framework. <br/>
 
