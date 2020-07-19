@@ -71,7 +71,7 @@ Here I am using sqllite to store the information, You can always change the data
 SQLALCHEMY_DATABASE_URL = "postgresql://user:password@postgresserver/db"
 ```
 
-* # Authenticate User
+# Authenticate User
 
 Below routes are protected , to use these route you need to authenticate yourself so that a jwt token will be issueissue and this toke can be used as Authorization: Bearer header in the subsequent request.
 
