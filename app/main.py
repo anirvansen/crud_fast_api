@@ -53,7 +53,7 @@ def register_user(username: str = Form(...), password: str = Form(...),db: Sessi
     db_user = crud.get_user_by_username(db = db,username = username)
 
     if db_user:
-        raise HTTPException(status_code=400,detail="User already registerd")
+        raise HTTPException(status_code=400,detail="User already registered")
 
     user = schemas.User(username= username,password = password)
     return crud.create_user(db = db,user = user)
